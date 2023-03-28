@@ -33,7 +33,7 @@ if((NOT DEFINED TIM_VX_INSTALL))
   include(FetchContent)
   FetchContent_Declare(
     tim-vx
-    GIT_REPOSITORY https://github.com/VeriSilicon/TIM-VX.git
+    GIT_REPOSITORY https://github.com/FrankdenUijl/TIM-VX.git
     GIT_TAG main
   )
   FetchContent_GetProperties(tim-vx)
